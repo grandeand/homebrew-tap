@@ -17,8 +17,13 @@ cask "grandebar" do
   app "GrandeBar.app"
 
   caveats <<~EOS
-    GrandeBar is currently unsigned. If macOS blocks the first launch,
-    open it once from Finder with right click, then Open.
+    GrandeBar is currently unsigned.
+
+    If macOS says the app is damaged or should be moved to Trash, run:
+      xattr -dr com.apple.quarantine /Applications/GrandeBar.app
+
+    You can also install without quarantine:
+      brew install --cask --no-quarantine grandeand/tap/grandebar
   EOS
 
   zap trash: [
