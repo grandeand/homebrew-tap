@@ -1,6 +1,6 @@
 cask "grandebar" do
-  version "0.2.1"
-  sha256 "08928698997240550ed42f91f26bbceafa23daf710718824f130f56f3593c26b"
+  version "0.2.2"
+  sha256 "12d6e8167940ebac216ba10a1fa57f769893b433962707429637cde24bed5835"
 
   url "https://github.com/grandeand/grandebar/releases/download/v#{version}/GrandeBar-#{version}.zip"
   name "GrandeBar"
