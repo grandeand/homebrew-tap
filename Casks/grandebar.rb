@@ -1,6 +1,6 @@
 cask "grandebar" do
-  version "0.2.7"
-  sha256 "dba80408c935807629347b27694c27b3af5df608c22f4311a1fdf4950236d25c"
+  version "0.2.8"
+  sha256 "ab4d8142253fa1b39a8cbd66146990b0d0fd44b522df3428507343e073159ba0"
 
   url "https://github.com/grandeand/grandebar/releases/download/v#{version}/GrandeBar-#{version}.zip"
   name "GrandeBar"
@@ -21,9 +21,6 @@ cask "grandebar" do
 
     If macOS says the app is damaged or should be moved to Trash, run:
       xattr -dr com.apple.quarantine /Applications/GrandeBar.app
-
-    You can also install without quarantine:
-      brew install --cask --no-quarantine grandeand/tap/grandebar
   EOS
 
   zap trash: [
