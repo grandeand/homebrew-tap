@@ -1,10 +1,10 @@
 cask "grandebar" do
-  version "0.2.16"
-  sha256 "106cb639ccc8ba24eaef5954bde4c5e905e9d3fe844863eb8094fb965a2adc6e"
+  version "0.2.17"
+  sha256 "146f5f12bf4befcea5daebccc183ae679988243abb4ffeee1a24dc2d40331f80"
 
   url "https://github.com/grandeand/grandebar/releases/download/v#{version}/GrandeBar-#{version}.zip"
   name "GrandeBar"
-  desc "Native macOS menu bar app for CLIProxyAPI Codex quota and ccusage cost"
+  desc "Native macOS menu bar app for CLIProxyAPI Codex and Claude quota and cost"
   homepage "https://github.com/grandeand/grandebar"
 
   livecheck do
